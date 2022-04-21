@@ -1,0 +1,41 @@
+.new-freelancer__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.new-freelancer__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-freelancer__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+.new-freelancer__control p {
+  color: red;
+}
+.new-freelancer__actions {
+  text-align: right;
+}
+
+button[type='submit'] {
+  margin-top: 50px;
+  margin-bottom: 6px;
+  padding: 9px 14px;
+  color: white;
+  background: linear-gradient(
+    174deg,
+    rgba(15, 92, 251, 1) 0%,
+    rgba(0, 7, 179, 1) 100%
+  );
+  border: none;
+  border-radius: 3px;
+}

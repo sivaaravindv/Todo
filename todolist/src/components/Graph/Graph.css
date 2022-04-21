@@ -1,0 +1,45 @@
+.graph {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.graphTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+.datepicker {
+  display: flex;
+}
+.le,
+.ri {
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(170, 170, 170);
+}
+.dates {
+  margin: 0 1.2rem;
+  color: rgb(173, 173, 173);
+}
+.dates h3 {
+  font-size: 1rem;
+}
+.graphTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: rgb(16, 57, 240);
+}
+
+.graphMid {
+  display: flex;
+  margin-bottom: 1.5rem;
+  height: 280px;
+  position: relative;
+}

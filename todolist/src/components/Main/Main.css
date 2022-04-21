@@ -1,0 +1,13 @@
+.main {
+  position: relative;
+  left: 69px;
+  right: 390px;
+  width: calc(100% - 459px);
+
+  background-color: rgb(249, 249, 249);
+  border-right: 0.5px solid rgb(199, 199, 199);
+  padding-left: 2.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  height: 100%;
+}

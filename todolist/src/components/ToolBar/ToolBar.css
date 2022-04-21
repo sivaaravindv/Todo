@@ -1,0 +1,73 @@
+.topTool {
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.topLeft {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topLeft .searchBar {
+  min-width: 240px;
+
+  justify-self: flex-start;
+  border: 1px solid rgb(212, 212, 212);
+  background-color: rgb(249, 249, 249);
+  border-radius: 6px;
+  height: 50px;
+
+  display: flex;
+  padding: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.topLeft .searchBar p,
+.topLeft .searchBar i {
+  color: rgb(212, 212, 212);
+}
+.topLeft .searchBar p {
+  margin-left: 1rem;
+}
+
+.topLeftInner {
+  display: flex;
+  align-items: center;
+}
+.note,
+.inbox,
+.dots {
+  color: rgb(151, 151, 151);
+}
+.note,
+.inbox {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topRight {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.topRight h4:nth-child(1) {
+  color: rgb(139, 139, 139);
+}
+.topRight h4:nth-child(2) {
+  color: rgb(16, 57, 240);
+}

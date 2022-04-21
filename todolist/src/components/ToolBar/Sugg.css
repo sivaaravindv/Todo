@@ -1,0 +1,113 @@
+.searchSug {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  width: 260px;
+  z-index: 12;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.wizard {
+  display: flex;
+
+  border-radius: 6px;
+}
+.wizard .closeButton {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: rgb(249, 249, 249);
+}
+.wizard .closeButton i {
+  color: rgb(170, 170, 170);
+  font-size: 1.1rem;
+}
+.wizard input::placeholder {
+  color: rgb(177, 177, 177);
+}
+.wizard input {
+  outline: none;
+  height: 50px;
+  width: 100%;
+  border: none;
+  padding-left: 1rem;
+  font-weight: 700;
+  color: rgb(177, 177, 177);
+  background-color: rgb(249, 249, 249);
+}
+
+.sugglist {
+  width: 100%;
+  padding-top: 1rem;
+  text-indent: 1rem;
+}
+.sugglist h5 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgb(177, 177, 177);
+}
+.sugglist li {
+  list-style: none;
+
+  border-bottom: 1px solid rgb(179, 177, 177);
+}
+.sugglist li:last-child {
+  border: none;
+}
+.sugglist li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: rgb(139, 139, 139);
+}
+.sugglist li .imgspan {
+  min-width: 50px;
+  min-height: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(168, 238, 127, 0.75);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+.sugglist li .imgspan img {
+  width: 100%;
+}
+.sugglist li:nth-child(2) .imgspan {
+  background-color: rgba(240, 135, 226, 0.75);
+}
+.sugglist li:nth-child(3) .imgspan {
+  background-color: rgba(115, 163, 235, 0.75);
+}
+.sugglist li .titlespan {
+  text-indent: 0;
+  margin-left: 1rem;
+}
+.sugglist li .iconspan {
+  margin-right: 1rem;
+}
+.advance {
+  width: 100%;
+  height: 60px;
+  text-decoration: none;
+  background-color: rgb(16, 57, 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

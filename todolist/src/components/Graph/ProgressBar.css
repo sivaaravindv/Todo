@@ -1,0 +1,92 @@
+.progress {
+  width: 30%;
+
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.5px solid rgb(233, 224, 222);
+}
+
+.semiDonut {
+  --percentage: 0;
+  --fill: rgb(14, 163, 1);
+  width: 150px;
+  height: 75px;
+  position: relative;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  overflow: hidden;
+  color: var(--fill);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.semiDonut:after {
+  content: '';
+  width: 150px;
+  height: 150px;
+  border: 15px solid;
+  border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) var(--fill) var(--fill);
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  transform: rotate(calc(1deg * (-45 + var(--percentage) * 1.8)));
+  -webkit-animation: fillAnimation 1s ease-in;
+  animation: fillAnimation 1s ease-in;
+}
+@keyframes fillAnimation {
+  0% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(135deg);
+  }
+}
+
+.progress h6 {
+  color: black;
+  font-weight: 700;
+}
+.progress span {
+  color: rgb(14, 163, 1);
+}
+.progress p {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: rgb(151, 151, 151);
+  text-align: center;
+}
+.progress .stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.progress .stats .idam,
+.progress .stats .valam {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.progress .stats .idam {
+  margin-right: 0.8rem;
+}
+.progress .stats .idam span,
+.progress .stats .valam span {
+  min-width: 15px;
+  height: 15px;
+}
+.progress .stats .idam span {
+  background-color: green;
+  margin-right: 0.5rem;
+}
+.progress .stats .valam span {
+  background-color: rgb(216, 215, 215);
+  margin-right: 0.5rem;
+}

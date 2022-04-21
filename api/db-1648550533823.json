@@ -1,0 +1,19 @@
+{
+  "freelancers": [
+    {
+      "id": "e1",
+      "name": "Steve Roger",
+      "place": "Oslo, Norway"
+    },
+    {
+      "id": "e2",
+      "name": "Peter Parker",
+      "place": "NewYork, NewYork"
+    },
+    {
+      "id": "e3",
+      "name": "Elon Musk",
+      "place": "Calgary, Canada"
+    }
+  ]
+}
